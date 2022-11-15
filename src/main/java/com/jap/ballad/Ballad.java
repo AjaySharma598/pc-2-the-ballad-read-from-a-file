@@ -15,6 +15,7 @@ public class Ballad {
             while ((line=fileInputStream.read())!=-1){
                 char data=(char) line;
                 str=str+String.valueOf(data);
+
             }
         }catch (IOException exception){
             exception.printStackTrace();
