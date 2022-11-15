@@ -12,7 +12,7 @@ public class Ballad {
             int line=0;
             while ((line=fileInputStream.read())!=-1){
                 char data=(char) line;
-                System.out.println("data = " + data);
+                System.out.print("data = " + data);
             }
         }catch (IOException exception){
             System.out.println("exception = " + exception);
